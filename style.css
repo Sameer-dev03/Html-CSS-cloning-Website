@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: text;
+  src: url(./iJWKBXyIfDnIV7nBrXw.woff2);
+}
+#main {
+  width: 100%;
+  width: 100%;
+}
+#main .section-main {
+  background-image: url(./hero_slider_.jpeg);
+}
+#main header {
+  width: 100%;
+}
+#main header .top {
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 0.5rem;
+}
+#main header .top .info {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  font-family: text;
+  display: none;
+}
+#main header .top .bottom {
+  font-family: text;
+  text-transform: capitalize;
+  text-align: center;
+  width: 100%;
+}
+#main header nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.741);
+  color: white;
+}
+#main header nav .logo,
+#main header nav .info {
+  width: 50%;
+}
+#main header nav .logo img {
+  width: 9rem;
+}
+#main header nav .logo .list {
+  display: none;
+}
+#main header nav .deatils {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+#main header nav .deatils li,
+#main header nav .deatils h4,
+#main header nav .deatils .content {
+  display: none;
+  flex-direction: column;
+}
+#main header nav .deatils .menu-nav {
+  display: none;
+}
+#main .hero-section {
+  width: 100%;
+  padding: 8rem 1rem;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.65) 20%, rgba(255, 170, 60, 0.75) 100%);
+  display: flex;
+  background-size: cover;
+}
+#main .hero-section .social {
+  display: none;
+}
+#main .hero-section h3 {
+  color: white;
+  font-family: text;
+  font-weight: 300;
+}
+#main .hero-section h1 {
+  width: 100%;
+  font-size: 2.8rem;
+  color: white;
+  margin-top: 1rem;
+  font-family: text;
+}
+#main .hero-section p {
+  font-size: 1rem;
+  color: white;
+  font-family: text;
+  text-transform: capitalize;
+  line-height: 1.4rem;
+  margin-top: 1rem;
+}
+#main .hero-section button {
+  padding: 1rem 2rem;
+  background-color: orange;
+  border: none;
+  margin-top: 1rem;
+  color: white;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+}
+#main .keywords {
+  width: 100%;
+  background: url(moving_text_shape.png);
+  background-color: #000000;
+  color: white;
+  display: flex;
+  margin-bottom: 5rem;
+  padding: 2rem 1rem;
+  font-family: text;
+  background-size: cover;
+}
+#main .keywords .move {
+  width: 100%;
+}
+#main .keywords .move .track {
+  display: flex;
+  white-space: nowrap;
+  gap: 2rem;
+  font-size: 1.3rem;
+}
+
+@media (min-width: 1100px) {
+  #main {
+    width: 100%;
+  }
+  #main header {
+    width: 100%;
+  }
+  #main header nav {
+    width: 100%;
+  }
+  #main header nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    width: 80%;
+  }
+  #main header nav .logo .list {
+    display: block;
+  }
+  #main header nav .logo .list ul {
+    display: flex;
+    list-style: none;
+    gap: 1.2rem;
+    font-size: 1.1rem;
+    font-family: text;
+  }
+  #main .hero-section {
+    padding: 10rem 10rem;
+    gap: 4rem;
+  }
+  #main .hero-section .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  #main .hero-section .social i {
+    color: white;
+    border: 1px solid white;
+    padding: 0.8rem;
+    border-radius: 50%;
+  }
+  #main .hero-section h3 {
+    color: white;
+    font-family: text;
+    font-weight: 300;
+  }
+  #main .hero-section h1 {
+    width: 90%;
+    font-size: 3.8rem;
+    color: white;
+    margin-top: 1rem;
+    font-family: text;
+  }
+  #main .hero-section p {
+    font-size: 1rem;
+    color: white;
+    font-family: text;
+    text-transform: capitalize;
+    line-height: 1.4rem;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 1100px) {
+  #main {
+    width: 100%;
+  }
+  #main header nav .deatils {
+    display: flex;
+  }
+  #main header nav .deatils .menu-nav {
+    margin-left: auto;
+    display: flex;
+  }
+  #main header nav .deatils .menu-nav i {
+    display: flex;
+    font-size: 1.5rem;
+    background-color: orange;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+}
+@media (min-width: 750px) {
+  #main {
+    width: 100%;
+  }
+  #main header .top {
+    width: 100%;
+    padding: 1rem;
+  }
+  #main header .top .info,
+  #main header .top .bottom {
+    width: 50%;
+  }
+  #main header .top .info {
+    display: flex;
+  }
+  #main header .top .bottom {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #main header nav {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  #main header nav .deatils {
+    display: flex;
+  }
+  #main header nav .deatils li,
+  #main header nav .deatils h4,
+  #main header nav .deatils .content {
+    display: flex;
+    flex-direction: column;
+    font-family: text;
+  }
+  #main .hero-section {
+    padding: 10rem 5rem;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.65) 20%, rgba(255, 170, 60, 0.75) 100%);
+    display: flex;
+  }
+}/*# sourceMappingURL=style.css.map */
