@@ -283,19 +283,8 @@ body {
                 display: flex;
                 flex-direction: column;
                 gap: 1.5rem;
-            }
 
-
-            button{
-                width: fit-content;
-                background-color: orangered;
-                border: none;
-                padding: 0.5rem 1rem;
-                font-size: 1.3rem;
-                color: white;
-                border-radius: 0.5rem;
-            }
-            .content {
+                 .content {
                 width: 100%;
                 display: flex;
                 flex-direction: column;
@@ -313,6 +302,19 @@ body {
                     }
                 }
             }
+            }
+
+
+            button{
+                width: fit-content;
+                background-color: orangered;
+                border: none;
+                padding: 0.5rem 1rem;
+                font-size: 1.3rem;
+                color: white;
+                border-radius: 0.5rem;
+            }
+           
 
 
             .progress-container {
@@ -469,6 +471,38 @@ body {
                 
             }
         
+        }
+
+        .bottom{
+
+            .keys {
+              
+                flex-direction: row;
+               
+
+                .content{
+
+                    
+                .heading {
+                    align-items: center;
+                    
+
+                    i {
+                        background-color: orangered;
+                       
+                        color: white;
+                        border-radius: 50%;
+                    }
+                }
+                }
+
+
+
+
+            }
+
+
+
         }
     
     }
